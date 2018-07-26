@@ -85,7 +85,7 @@ final class PickupDemoCalculator implements CalculatorInterface
      *
      * @return array
      */
-    protected function getPickup()
+    protected function getPickup(): array
     {
         return [
             'pickup-1' => [
