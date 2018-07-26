@@ -1,0 +1,6 @@
+services:
+    app.shipping_calculator.demo_pickup:
+        class: MagentixPickupDemoPlugin\Shipping\Calculator\PickupDemoCalculator
+        public: true
+        tags:
+            - { name: sylius.shipping_calculator, calculator: demo_pickup, form_type: MagentixPickupDemoPlugin\Form\Type\Shipping\Calculator\PickupDemoConfigurationType, label: "Demo Pickup" }
