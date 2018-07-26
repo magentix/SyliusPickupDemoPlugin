@@ -19,7 +19,7 @@ final class PickupDemoConfigurationType extends AbstractType
     {
         $builder
             ->add('amount', MoneyType::class, [
-                'label' => 'pickup_demo.form.shipping_calculator.amount',
+                'label' => 'pickup_demo.form.shipping_method.amount',
                 'constraints' => [
                     new NotBlank(),
                     new Type(['type' => 'integer']),

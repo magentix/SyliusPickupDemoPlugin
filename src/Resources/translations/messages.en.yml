@@ -1,0 +1,5 @@
+pickup_demo:
+    form:
+        shipping_method:
+            amount: Amount
+
