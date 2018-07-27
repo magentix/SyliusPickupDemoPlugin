@@ -43,9 +43,16 @@ final class PickupDemoCalculator implements CalculatorInterface
 
         // Load Pickup list here with your own logic
 
+        if ($address->getCountryCode() == 'FR') {
+            return [
+                'error'  => false,
+                'pickup' => $this->getPickup(),
+            ];
+        }
+
         return [
-            'error'  => false,
-            'pickup' => $this->getPickup(),
+            'error'  => 'pickup_demo.pickup.list.error.empty',
+            'pickup' => [],
         ];
     }
 

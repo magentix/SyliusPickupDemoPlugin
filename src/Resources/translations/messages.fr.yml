@@ -2,3 +2,7 @@ pickup_demo:
     form:
         shipping_method:
             amount: Montant
+    pickup:
+        list:
+            error:
+                empty: Aucun point de retrait n'a été trouvé à proximité de l'adresse indiquée
