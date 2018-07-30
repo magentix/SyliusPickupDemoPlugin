@@ -3,7 +3,7 @@
  * @author    Matthieu Vion
  * @copyright 2018 Magentix
  * @license   https://opensource.org/licenses/MIT MIT License
- * @link      https://github.com/magentix/pickup-plugin
+ * @link      https://github.com/magentix/pickup-demo-plugin
  */
 declare(strict_types=1);
 
