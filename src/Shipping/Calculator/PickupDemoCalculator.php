@@ -13,6 +13,7 @@ use MagentixPickupPlugin\Shipping\Calculator\CalculatorInterface;
 use Sylius\Component\Shipping\Model\ShipmentInterface;
 use Sylius\Component\Core\Model\AddressInterface;
 use Sylius\Component\Core\Model\OrderInterface;
+use Sylius\Component\Core\Model\ShippingMethodInterface;
 
 final class PickupDemoCalculator implements CalculatorInterface
 {
@@ -38,10 +39,13 @@ final class PickupDemoCalculator implements CalculatorInterface
      *
      * @param AddressInterface $address
      * @param OrderInterface $cart
-     * @param array $configuration
+     * @param ShippingMethodInterface $shippingMethod
      * @return array
      */
-    public function getPickupList(AddressInterface $address, OrderInterface $cart, array $configuration): array
+    public function getPickupList(
+        AddressInterface $address,
+        OrderInterface $cart,
+        ShippingMethodInterface $shippingMethod): array
     {
         // $address->getPostcode();
         // $address->getCountryCode();
@@ -65,10 +69,10 @@ final class PickupDemoCalculator implements CalculatorInterface
      * Retrieve pickup address
      *
      * @param string $pickupId
-     * @param array $configuration
+     * @param ShippingMethodInterface $shippingMethod
      * @return array
      */
-    public function getPickupAddress(string $pickupId, array $configuration): array
+    public function getPickupAddress(string $pickupId, ShippingMethodInterface $shippingMethod): array
     {
         // Load Pickup here from pickup id with your own logic
 
