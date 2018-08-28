@@ -7,12 +7,12 @@
  */
 declare(strict_types=1);
 
-namespace MagentixPickupDemoPlugin;
+namespace Magentix\SyliusPickupDemoPlugin;;
 
 use Sylius\Bundle\CoreBundle\Application\SyliusPluginTrait;
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
-final class MagentixPickupDemoPlugin extends Bundle
+final class MagentixSyliusPickupDemoPlugin extends Bundle
 {
     use SyliusPluginTrait;
 }

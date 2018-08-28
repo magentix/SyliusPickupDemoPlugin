@@ -7,12 +7,12 @@
  */
 declare(strict_types=1);
 
-namespace MagentixPickupDemoPlugin\DependencyInjection;
+namespace Magentix\SyliusPickupDemoPlugin\DependencyInjection;
 
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\DependencyInjection\Extension\Extension;
 
-final class MagentixPickupDemoExtension extends Extension
+final class MagentixSyliusPickupDemoExtension extends Extension
 {
     public function load(array $configs, ContainerBuilder $container): void
     {

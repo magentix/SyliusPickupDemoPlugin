@@ -17,8 +17,8 @@ public function registerBundles()
 {
     $bundles = [
         ...
-        new \MagentixPickupPlugin\MagentixPickupPlugin(),
-        new \MagentixPickupDemoPlugin\MagentixPickupDemoPlugin(),
+        new \Magentix\SyliusPickupPlugin\MagentixSyliusPickupPlugin(),
+        new \Magentix\SyliusPickupDemoPlugin\MagentixSyliusPickupDemoPlugin(),
     ];
 }
 ```
@@ -30,8 +30,8 @@ Import required config in your `app/config/config.yml` file:
 
 imports:
     ...
-    - { resource: "@MagentixPickupPlugin/Resources/config/config.yml" }
-    - { resource: "@MagentixPickupDemoPlugin/Resources/config/config.yml" }
+    - { resource: "@MagentixSyliusPickupPlugin/Resources/config/config.yml" }
+    - { resource: "@MagentixSyliusPickupDemoPlugin/Resources/config/config.yml" }
 ```
     
 Import routing in your `app/config/routing.yml` file:
@@ -41,7 +41,7 @@ Import routing in your `app/config/routing.yml` file:
 ...
 
 magentix_pickup_plugin:
-    resource: "@MagentixPickupPlugin/Resources/config/routing.yml"
+    resource: "@MagentixSyliusPickupPlugin/Resources/config/routing.yml"
 ```
 
 Deploy Assets:

@@ -7,7 +7,7 @@
  */
 declare(strict_types=1);
 
-namespace MagentixPickupDemoPlugin\Form\Type\Shipping\Calculator;
+namespace Magentix\SyliusPickupDemoPlugin\Form\Type\Shipping\Calculator;
 
 use Sylius\Bundle\MoneyBundle\Form\Type\MoneyType;
 use Symfony\Component\Form\AbstractType;

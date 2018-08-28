@@ -1,2 +1,2 @@
 imports:
-    - { resource: "@MagentixPickupDemoPlugin/Resources/config/services.yml" }
+    - { resource: "@MagentixSyliusPickupDemoPlugin/Resources/config/services.yml" }

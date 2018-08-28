@@ -7,9 +7,9 @@
  */
 declare(strict_types=1);
 
-namespace MagentixPickupDemoPlugin\Shipping\Calculator;
+namespace Magentix\SyliusPickupDemoPlugin\Shipping\Calculator;
 
-use MagentixPickupPlugin\Shipping\Calculator\CalculatorInterface;
+use Magentix\SyliusPickupPlugin\Shipping\Calculator\CalculatorInterface;
 use Sylius\Component\Shipping\Model\ShipmentInterface;
 use Sylius\Component\Core\Model\AddressInterface;
 use Sylius\Component\Core\Model\OrderInterface;
@@ -93,7 +93,7 @@ final class PickupDemoCalculator implements CalculatorInterface
     {
         // Leave blank for default template
 
-        return '@MagentixPickupDemoPlugin/checkout/SelectShipping/pickup/list.html.twig';
+        return '@MagentixSyliusPickupDemoPlugin/checkout/SelectShipping/pickup/list.html.twig';
     }
 
     /**
