@@ -3,12 +3,12 @@
     "type": "sylius-plugin",
     "description": "Demo Pickup Shipping plugin for Sylius.",
     "license": "MIT",
-    "version": "1.1.0",
+    "version": "1.2.0",
     "require": {
         "php": "^7.1",
         "sylius/sylius": "~1.2",
         "symfony/symfony": "^3.4|^4.1",
-        "magentix/pickup-plugin": "^1.1"
+        "magentix/pickup-plugin": "^1.2"
     },
     "require-dev": {
         "phpspec/phpspec": "^4.0",

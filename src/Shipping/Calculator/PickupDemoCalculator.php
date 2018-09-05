@@ -107,35 +107,35 @@ final class PickupDemoCalculator implements CalculatorInterface
             'pickup-1' => [
                 'id'         => 'pickup-1',
                 'company'    => 'Magentix',
-                'street_1'   => '38 rue de la blanchisserie',
+                'street_1'   => '73 rue saint blaise',
                 'street_2'   => '',
-                'city'       => 'SIN LE NOBLE',
+                'city'       => 'PARIS',
                 'country'    => 'FR',
-                'postcode'   => '59450',
-                'latitude'   => '',
-                'longitude'  => ''
+                'postcode'   => '75020',
+                'latitude'   => '48.8569710',
+                'longitude'  => '02.4093750'
             ],
             'pickup-2' => [
                 'id'         => 'pickup-2',
                 'company'    => 'Magentix',
-                'street_1'   => '12 rue Lydéric',
+                'street_1'   => '38 boulevard mortier',
                 'street_2'   => '',
-                'city'       => 'LILLE',
+                'city'       => 'PARIS',
                 'country'    => 'FR',
-                'postcode'   => '59000',
-                'latitude'   => '',
-                'longitude'  => ''
+                'postcode'   => '75020',
+                'latitude'   => '48.8667319',
+                'longitude'  => '02.4091793'
             ],
             'pickup-3' => [
                 'id'         => 'pickup-3',
                 'company'    => 'Magentix',
-                'street_1'   => '74 avenue des Champs-Elysées',
+                'street_1'   => '161 rue de menilmontant',
                 'street_2'   => '',
                 'city'       => 'PARIS',
                 'country'    => 'FR',
-                'postcode'   => '75008',
-                'latitude'   => '',
-                'longitude'  => ''
+                'postcode'   => '75020',
+                'latitude'   => '48.8705810',
+                'longitude'  => '02.3983860'
             ],
         ];
     }
