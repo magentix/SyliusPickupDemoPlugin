@@ -1,14 +1,14 @@
 {
-    "name": "magentix/pickup-demo-plugin",
+    "name": "magentix/sylius-pickup-demo-plugin",
     "type": "sylius-plugin",
     "description": "Demo Pickup Shipping plugin for Sylius.",
     "license": "MIT",
-    "version": "1.2.0",
+    "version": "1.2.1",
     "require": {
         "php": "^7.1",
         "sylius/sylius": "~1.2",
         "symfony/symfony": "^3.4|^4.1",
-        "magentix/pickup-plugin": "^1.2"
+        "magentix/sylius-pickup-plugin": "^1.2"
     },
     "require-dev": {
         "phpspec/phpspec": "^4.0",
