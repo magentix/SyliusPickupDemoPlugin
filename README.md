@@ -2,6 +2,10 @@
 
 * This Plugin allows to add pickup delivery method.
 
+## Screenshot
+
+![Alt text](doc/images/shipping.png "Demo Pickup Shipping Method")
+
 ## Installation
 
 ```bash
@@ -50,4 +54,6 @@ Deploy Assets:
 php bin/console sylius:theme:assets:install
 ```
 
-Finally, in *Shipping Method* section from admin, add new Method with *Demo Pickup* Calculator.
+## Configuration
+
+In *Shipping Method* section from admin, add and configure new Method with *Demo Pickup* Calculator.

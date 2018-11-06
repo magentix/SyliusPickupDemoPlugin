@@ -52,7 +52,7 @@ final class PickupDemoCalculator implements CalculatorInterface
 
         // Load Pickup list here with your own logic
 
-        if ($address->getCountryCode() == 'FR') {
+        if ($address->getCountryCode() === 'FR') {
             return [
                 'error'  => false,
                 'pickup' => $this->getPickup(),
@@ -105,37 +105,46 @@ final class PickupDemoCalculator implements CalculatorInterface
     {
         return [
             'pickup-1' => [
-                'id'         => 'pickup-1',
-                'company'    => 'Magentix',
-                'street_1'   => '73 rue saint blaise',
-                'street_2'   => '',
-                'city'       => 'PARIS',
-                'country'    => 'FR',
-                'postcode'   => '75020',
-                'latitude'   => '48.8569710',
-                'longitude'  => '02.4093750'
+                'id'        => 'pickup-1',
+                'company'   => 'Magentix',
+                'street_1'  => '73 rue saint blaise',
+                'street_2'  => '',
+                'city'      => 'PARIS',
+                'country'   => 'FR',
+                'postcode'  => '75020',
+                'latitude'  => '48.8569710',
+                'longitude' => '02.4093750',
+                'opening'   => 'Open 24h/24 7j/7',
+                'parking'   => 'Free parking',
+                'access'    => 'Disabled access',
             ],
             'pickup-2' => [
-                'id'         => 'pickup-2',
-                'company'    => 'Magentix',
-                'street_1'   => '38 boulevard mortier',
-                'street_2'   => '',
-                'city'       => 'PARIS',
-                'country'    => 'FR',
-                'postcode'   => '75020',
-                'latitude'   => '48.8667319',
-                'longitude'  => '02.4091793'
+                'id'        => 'pickup-2',
+                'company'   => 'Magentix',
+                'street_1'  => '38 boulevard mortier',
+                'street_2'  => '',
+                'city'      => 'PARIS',
+                'country'   => 'FR',
+                'postcode'  => '75020',
+                'latitude'  => '48.8667319',
+                'longitude' => '02.4091793',
+                'opening'   => 'Monday to Friday from 9:00 to 19:00',
+                'parking'   => 'Free parking',
+                'access'    => 'Disabled access',
             ],
             'pickup-3' => [
-                'id'         => 'pickup-3',
-                'company'    => 'Magentix',
-                'street_1'   => '161 rue de menilmontant',
-                'street_2'   => '',
-                'city'       => 'PARIS',
-                'country'    => 'FR',
-                'postcode'   => '75020',
-                'latitude'   => '48.8705810',
-                'longitude'  => '02.3983860'
+                'id'        => 'pickup-3',
+                'company'   => 'Magentix',
+                'street_1'  => '161 rue de menilmontant',
+                'street_2'  => '',
+                'city'      => 'PARIS',
+                'country'   => 'FR',
+                'postcode'  => '75020',
+                'latitude'  => '48.8705810',
+                'longitude' => '02.3983860',
+                'opening'   => 'Open 24h/24 7j/7',
+                'parking'   => 'Free parking',
+                'access'    => 'Disabled access',
             ],
         ];
     }
