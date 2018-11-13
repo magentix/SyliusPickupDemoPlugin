@@ -15,7 +15,7 @@
         "sylius-labs/coding-standard": "^2.0"
     },
     "prefer-stable": true,
-    "minimum-stability": "alpha",
+    "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
             "Magentix\\SyliusPickupDemoPlugin\\": "src/"
